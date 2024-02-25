@@ -1,0 +1,28 @@
+.banner-landing{
+    height: 50vh;
+    position: relative;
+}
+
+.banner-landing .banner-landing__image{
+    height:50vh;
+    width: 100%;
+   
+}
+
+.banner-landing .banner-landing__image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-landing .banner-title{
+    position: absolute;
+    top:4rem;
+    left: 2rem; 
+}
+
+.banner-landing .banner-title h1{
+    color: var(--black);
+}
+
+

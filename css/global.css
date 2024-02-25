@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+    --elephant: #104547;
+    --cinnabar: #E13833;
+    --sea-pink: #F0A19F;
+    --outer-space-heading: #262E2E;
+    --pumice-txt: #C9CAC9;
+    --alabaster-background: #FAFAFA;
+    --white: #FFFFFF;
+    --black: #262E2E;
+    --pale-silver: #D4C8B7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+h1 {
+    padding-top: 2rem;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+h6 {
+    padding-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.67%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-7 {
+    width: 58.33;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.h100 {
+    height: 100vh;
+}
+
+.p-20 {
+    padding: 2rem;
+}
+
+.m-10 {
+    margin: 1rem;
+}
+
+.heading-red {
+    color: var(--cinnabar);
+    font-weight: 600;
+}
+
+.sub-link {
+    color: var(--black);
+    transition: 0s;
+
+}
+
+.sub-link:hover {
+    color: var(--cinnabar);
+    font-weight: 800;
+    transition: 0.6s;
+}
+
+.header-link {
+    padding-top: 2rem;
+    display: inline-block;
+    transition: 0;
+
+}
+
+.header-link:hover {
+    color: var(--cinnabar);
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.breadcrumb-link-span {
+    color: var(--cinnabar);
+    font-size: 1rem;
+}
+
+.gray-bg{
+    background:var(--alabaster-background);
+}
+

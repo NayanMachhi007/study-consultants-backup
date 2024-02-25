@@ -1,0 +1,11 @@
+.component-name{
+    height: 10vh;
+    background: var(--pumice-txt);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.component-name h2{
+    font: 3.4rem;
+}

@@ -1,0 +1,72 @@
+.bod-section {
+    height: 120vh;
+    background: var(--alabaster-background);
+}
+
+.bod-section .bod-title {
+    text-align: center;
+    padding: 6rem 0;
+    position: relative;
+}
+
+
+.bod-section .bod-title span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 2rem 0;
+}
+
+.bod-section .bod-title h2 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    width: 80rem;
+    margin: auto;
+    color: var(--black);
+}
+
+.bod-section .bod-title h2::after {
+    top: 13rem;
+    content: '';
+    position: absolute;
+    left: 61rem;
+    bottom: 0rem;
+    width: 6%;
+    margin: auto;
+    height: 3px;
+    background: var(--cinnabar);
+}
+
+.bod-section .bod-people {
+    padding: 1rem;
+}
+
+.bod-section .bod-people img {
+    position: relative;
+    border-radius: 5px;
+    border-bottom: 5px solid var(--cinnabar);
+}
+
+
+.bod-section .bod-people h3 {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+
+.bod-section .bod-people span {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.bod-section .bod-people .bod-social {
+    padding: 1.5rem 0;
+}
+
+.bod-section .bod-people .bod-social i {
+    padding: 0 1rem 0 0.1rem;
+    font-size: 1.6rem;
+    transition: 0.6s;
+}
+
+.bod-section .bod-people .bod-social i:hover {
+    color: var(--cinnabar);
+}

@@ -1,0 +1,45 @@
+.contact-form {
+    height: 100vh;
+    padding: 2rem 0;
+}
+
+.contact-form h2 {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 40%;
+}
+
+.contact-form p {
+    width: 60%;
+    line-height: 18px;
+}
+
+.contact-form input {
+    border-radius: 10px;
+    margin-top: 4rem;
+    padding: 1rem 6rem;
+    background: var(--alabaster-background);
+    outline: none;
+    border: 1px solid var(--black)
+}
+
+.contact-form input:focus {
+    border: 1px solid var(--cinnabar);
+}
+
+.contact-form textarea {
+    margin: 2rem 0;
+}
+
+.contact-form a {
+    padding: 1rem 9rem;
+    background: var(--white);
+    font-weight: 800;
+    background: var(--cinnabar);
+    color: var(--white);
+    transition: 0.6s;
+}
+
+.contact-form a:hover{
+    background: var(--black);
+}

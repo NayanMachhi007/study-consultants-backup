@@ -1,0 +1,87 @@
+.footer {
+    height: 100vh;
+    background: var(--elephant);
+    position: relative;
+    padding: 14rem 0;
+}
+
+.footer::before {
+    content: '';
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: -2px;
+    height: 65px;
+    background-image: url(../images/footer/footer-shape.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-des {
+    padding: 2rem;
+}
+
+.footer .footer-des img {
+    width: 10rem;
+    height: 10rem;
+    padding-bottom: 2rem;
+}
+
+.footer .footer-des p {
+    color: var(--pale-silver);
+    width: 30rem;
+    padding-bottom: 2rem;
+}
+
+.footer .footer-des .footer-heading {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.footer .footer-des .footer-heading-six {
+    color: var(--white);
+    font-weight: 600;
+
+}
+
+.footer .footer-des a {
+    color: var(--pale-silver);
+}
+
+.footer .footer-des h4 {
+    padding: 2rem 0;
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.footer .footer-des ul li {
+    padding: 1rem 0;
+
+}
+
+.footer .footer-des ul li:hover a {
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.footer .footer-end {
+    padding-top: 3rem;
+   
+}
+
+.footer .footer-end::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0.5px;
+    background: var(--pale-silver);
+    opacity: 0.5;
+
+}
+
+.footer .footer-end p{
+        color: var(--white);
+        padding: 2rem 2rem;
+}

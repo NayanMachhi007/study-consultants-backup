@@ -1,0 +1,90 @@
+
+.signpost-card .signpost-card__title {
+    text-align: center;
+    padding: 6rem 0;
+    position: relative;
+}
+
+
+.signpost-card .signpost-card__title span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 2rem 0;
+}
+
+.signpost-card .signpost-card__title h2 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    width: 80rem;
+    margin: auto;
+    color: var(--black);
+}
+
+.signpost-card .signpost-card__title p {
+    width: 50%;
+    margin: auto;
+}
+
+.signpost-card .signpost-card__title p::after {
+    top: 24rem;
+    content: '';
+    position: absolute;
+    left: 61rem;
+    bottom: 0rem;
+    width: 5%;
+    margin: auto;
+    height: 3px;
+    background: var(--cinnabar);
+}
+
+
+.signpost-card .signpost-card-des {
+    padding: 2rem;
+    background: var(--alabaster-background);
+    transition: 0.8s;
+    margin: 2rem 1rem;
+}
+
+.signpost-card .signpost-card-des:hover {
+    box-shadow: 0 7px 30px -10px rgba(133, 153, 162, 0.3);
+    background: var(--white);
+}
+
+.signpost-card .signpost-card-des .signpost-icon-title {
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    
+}
+
+.signpost-card .signpost-card-des .signpost-icon-title i{
+    font-size: 3.4rem;
+    color: var(--cinnabar);
+}
+
+.signpost-card .signpost-card-des .signpost-icon-title h3{
+    font-size: 2.4rem;
+    width: 20%;
+    padding: 0 2rem;
+}
+
+.signpost-card .signpost-card-des p{
+    padding: 2rem 0;
+   letter-spacing: 1px;
+}
+
+.signpost-card .signpost-card-des a{
+    margin: 1rem 0;
+    padding: 1rem 5rem;
+    display: inline-block;
+    border: 1px solid var(--cinnabar);
+    font-weight: 500;
+}
+
+.signpost-card .signpost-card-des:hover a{
+    background:var(--cinnabar);
+    color: var(--white);
+    font-weight: 800;
+    transition: 0.8s;
+}
+

@@ -1,0 +1,54 @@
+.keyfact{
+    height: 100vh;
+}
+.keyfact .keyfact-title {
+    text-align: center;
+    padding: 6rem 0;
+    position: relative;
+}
+
+.keyfact .keyfact-title span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 2rem 0;
+}
+
+.keyfact .keyfact-title h2 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    width: 80rem;
+    margin: auto;
+    color: var(--black);
+}
+
+.keyfact .keyfact-title h2::after {
+    top: 13rem;
+    content: '';
+    position: absolute;
+    left: 61rem;
+    bottom: 0rem;
+    width: 6%;
+    margin: auto;
+    height: 3px;
+    background: var(--cinnabar);
+}
+
+.keyfact .keyfact-details{
+    padding: 2rem;
+    text-align: center;
+}
+
+.keyfact .keyfact-details i{
+    color: var(--cinnabar);
+    font-size: 8.2rem;
+}
+
+.keyfact .keyfact-details h3{
+    font-size: 6.0rem;
+    padding: 3rem 0 0 0;
+}
+
+.keyfact .keyfact-details p{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}

@@ -1,0 +1,91 @@
+.navigation {
+    background: var(--alabaster-background);
+    position: relative;
+}
+
+.navigation .navigation__logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.navigation .navigation__logo img {
+    mix-blend-mode: multiply;
+}
+
+.navigation .navigation__link {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation .navigation__link li {
+    padding: 0px 20px;
+}
+
+.navigation .navigation__link li .nav-link {
+    padding: 40px 0px;
+    display: inline-block;
+    color: var(--black);
+    font-size: 1.7rem;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.navigation .navigation__link li .nav-link:hover {
+    color: var(--cinnabar);
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav {
+    padding: 8rem;
+    width: 100%;
+    height: 80vh;
+    /* border-top: 1px solid var(--cinnabar); */
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    top: 100px;
+    z-index: 999;
+    
+
+}
+
+.navigation .navigation__link li:hover .navigation-link__sub-nav {
+    visibility: visible;
+    transition: 0.8s;
+    top: 90px;
+    background: var(--alabaster-background);
+
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav h5 {
+    padding-bottom: 2.2rem;
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav p {
+    padding-top: 2.5rem;
+    width: 30rem;
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav .navigation-link_sub_nav__sub_nav::after {
+    content: '';
+    position: absolute;
+    top: 8rem;
+    width: 0.2rem;
+    height: 25rem;
+    background: var(--cinnabar);
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav .navigation-link_sub_nav__sub_nav li a {
+    padding-bottom: 2.4rem;
+    display: inline-block;
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav .sub-right-nav-image {
+    width: 20rem;
+    height: 20rem;
+}
+
+.navigation .navigation__link li .navigation-link__sub-nav .sub-right-nav-image img {
+    border-radius: 0rem 0rem 9rem 0rem;
+    object-fit: cover;
+}

@@ -1,0 +1,109 @@
+.blog-section {
+    height: 150vh;
+}
+
+.blog-section .blog-title {
+    text-align: center;
+    padding: 6rem 0;
+    position: relative;
+}
+
+.blog-section .blog-title span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 2rem 0;
+}
+
+.blog-section .blog-title h2 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    width: 80rem;
+    margin: auto;
+    color: var(--black);
+}
+
+.blog-section .blog-title h2::after {
+    top: 13rem;
+    content: '';
+    position: absolute;
+    left: 61rem;
+    bottom: 0rem;
+    width: 6%;
+    margin: auto;
+    height: 3px;
+    background: var(--cinnabar);
+}
+
+.blog-section .blog-details {
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.blog-section .blog-details img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-section .blog-details .blog-main {
+    height: 47vh;
+    width: 100%;
+    border: 1px solid var(--pumice-txt);
+    padding: 1rem;
+}
+
+.blog-section .blog-details .blog-main:hover{
+    background: var(--elephant);
+    color: var(--white);
+}
+
+.blog-section .blog-details .blog-main:hover .blog-short p{
+    color: var(--white);
+}
+
+.blog-section .blog-details .blog-main:hover p{
+    color: var(--white);
+}
+
+.blog-section .blog-details .blog-main:hover a {
+    color: var(--white);
+    background: var(--cinnabar);
+}
+
+.blog-section .blog-details .blog-main .blog-short {
+    display: flex;
+    padding: 1rem 0rem;
+}
+
+.blog-section .blog-details .blog-main .blog-short i {
+    color: var(--cinnabar);
+    font-size: 1.4rem;
+    padding: 1.3rem 1.4rem;
+}
+
+.blog-section .blog-details .blog-main .blog-short p {
+    color: var(--black);
+    font-weight: 600;
+}
+
+.blog-section .blog-details .blog-main h3 {
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+}
+
+.blog-section .blog-details .blog-main p {
+    padding: 1rem 1rem;
+    color: var(--black);
+    font-weight: 400;
+}
+
+.blog-section .blog-details .blog-main a {
+    padding: 1.5rem 5rem;
+    border: 1px solid var(--cinnabar);
+    border-radius: 1rem;
+    margin: 0rem 1rem;
+    display: inline-block;
+    color: var(--black);
+    font-weight: 600;
+}
