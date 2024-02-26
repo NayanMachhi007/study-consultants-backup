@@ -37,6 +37,7 @@
 .signpost-icon .signpost-icon__details {
    padding-right: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .signpost-icon .signpost-icon__details i {

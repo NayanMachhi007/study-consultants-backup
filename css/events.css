@@ -1,0 +1,93 @@
+.events-section{
+    padding: 3rem;
+}
+
+
+.events-section .events-date {
+    background: var(--anti-glash-white);
+    padding: 4rem;
+    text-align: center;
+    margin: 2rem;
+}
+/* Events Date Block */
+.events-section .events-date i {
+    color: var(--spanish-gray);
+    margin: 0 0.5rem;
+}
+
+.events-section .events-date span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--spanish-gray);
+}
+
+.events-section .events-date h2{
+    font-size: 8.6rem;
+    font-weight: 800;
+    padding: 1rem 0;
+    color: var(--cinnabar);
+}
+
+.events-section .events-date h3{
+    font-size: 2rem;
+    padding: 0.1rem 0;
+    font-weight: 500;
+    color: var(--cinnabar);
+}
+
+/* Events Block end */
+
+/* Events Details Block */
+
+.events-section .events-details{
+    padding: 4.6rem 2rem;
+        background: var(--anti-glash-white);
+        margin: 2rem 0;
+}
+
+.events-section .events-details h4{
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 0 0 0.5rem 0;
+        position: relative;
+}
+
+.events-section .events-details h4::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 10%;
+    height: 3px;
+    background: var(--cinnabar);
+}
+
+.events-section .events-details p{
+    padding: 4rem 0;
+    color: var(--elephant);
+}
+
+.events-section .events-details a{
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: var(--cinnabar);
+        transition: 0.5s;
+}
+
+.events-section .events-details a:hover{
+    padding-left: 1rem;
+}
+
+/* Evetns Details */
+
+/* Events Image */
+.events-section .events-image{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.events-section .events-image img{
+    object-fit: cover;
+}
+

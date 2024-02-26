@@ -12,6 +12,8 @@
     --white: #FFFFFF;
     --black: #262E2E;
     --pale-silver: #D4C8B7;
+    --spanish-gray:#9E9F9F;
+    --anti-glash-white:#F2F2F2;
 }
 
 * {
@@ -28,7 +30,13 @@
 html {
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
 }
 
 
