@@ -6,18 +6,19 @@
 .contact-form h2 {
     font-size: 2.4rem;
     padding: 2rem 0;
-    width: 40%;
+    width: 80%;
 }
 
 .contact-form p {
-    width: 60%;
+    width: 90%;
     line-height: 18px;
 }
 
 .contact-form input {
+    text-align: center;
     border-radius: 10px;
-    margin-top: 4rem;
-    padding: 1rem 6rem;
+    margin: 1rem 1rem 0 0;
+    padding: 1rem 0rem;
     background: var(--alabaster-background);
     outline: none;
     border: 1px solid var(--black)
@@ -42,4 +43,9 @@
 
 .contact-form a:hover{
     background: var(--black);
+}
+
+.contact-form .contact-form__image{
+    width: 100%;
+    height: 100%;
 }
